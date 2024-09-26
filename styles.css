@@ -1,0 +1,56 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+}
+
+header {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+.logo h1 {
+    margin: 0;
+    font-size: 2em;
+    color: black; /* Black color for the logo */
+}
+
+.logo p {
+    margin: 0;
+    font-size: 1em;
+    color: black; /* Black color for the tagline */
+}
+
+.navbar-nav .nav-link {
+    color: black; /* Black color for navigation links */
+}
+
+.navbar-nav .nav-link:hover {
+    color: #007BFF; /* Highlight color on hover */
+}
+
+.container {
+    padding: 20px;
+}
+
+h2 {
+    color: #343a40; /* Dark color for headings */
+}
+
+footer {
+    background-color: #f8f9fa;
+    text-align: center;
+    padding: 10px;
+}
+
+footer p {
+    color: black; /* Black color for footer text */
+}
+
+@media (max-width: 768px) {
+    header {
+        text-align: center; /* Center text on small screens */
+    }
+}
